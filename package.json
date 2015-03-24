@@ -1,0 +1,30 @@
+{
+  "name": "static.livesafemobile.com",
+  "version": "1.0.0",
+  "description": "Tools and files for use on our static asset domain",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "cleanup": "./node_modules/gulp/bin/gulp.js cleanup",
+    "deploy": "./node_modules/gulp/bin/gulp.js deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LiveSafe/static.livesafemobile.com.git"
+  },
+  "author": "Spain <spain@livesafemobile.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiveSafe/static.livesafemobile.com/issues"
+  },
+  "homepage": "https://github.com/LiveSafe/static.livesafemobile.com",
+  "devDependencies": {
+    "aws-sdk": "^2.1.16",
+    "gulp": "^3.8.11",
+    "gulp-html5-lint": "^1.0.0",
+    "ls-lodash": "^2.2.1",
+    "lvsf-gulp-tasks": "^1.1.0",
+    "q": "^1.1.2",
+    "q-io": "^1.11.6"
+  }
+}
